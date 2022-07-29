@@ -193,6 +193,8 @@ body {
                     padding: 10rem;
                     border-left: 20px solid #E9CFEB;
                     border-radius: 2rem;
+                    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 15%);
+
                 }
                 .sitios--content {
                     background: rgba(246, 176, 224, 0.6);
@@ -202,6 +204,8 @@ body {
                     padding: 10rem;
                     border-left: 20px solid #F6B0E0;
                     border-radius: 2rem;
+                    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 15%);
+
                 }
                 .campanas--content {
                     background: rgba(255, 117, 186, 0.6);
@@ -211,6 +215,8 @@ body {
                     padding: 10rem;
                     border-left: 20px solid #FF75BA;
                     border-radius: 2rem;
+                    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 15%);
+
                     
                 }
                 .social--content {
@@ -221,6 +227,8 @@ body {
                         padding: 10rem;
                         border-left: 20px solid #FF5400;
                         border-radius: 2rem;
+                        box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 15%);
+
                 }
 
             }
@@ -234,6 +242,11 @@ body {
             .clientes__container--frase {
                 display: flex;
                 align-items: center;
+                width: 45%;
+                h1 {
+                    font-family: 'Paytone One';
+                    font-size: 7rem;
+                }
             }
             .clientes__container--clientes {
                 width: 100%;

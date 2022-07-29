@@ -184,6 +184,7 @@ body .servicios .servicios__container .servicios--content .identidad--content {
   padding: 10rem;
   border-left: 20px solid #E9CFEB;
   border-radius: 2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
 body .servicios .servicios__container .servicios--content .sitios--content {
   background: rgba(246, 176, 224, 0.6);
@@ -193,6 +194,7 @@ body .servicios .servicios__container .servicios--content .sitios--content {
   padding: 10rem;
   border-left: 20px solid #F6B0E0;
   border-radius: 2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
 body .servicios .servicios__container .servicios--content .campanas--content {
   background: rgba(255, 117, 186, 0.6);
@@ -202,6 +204,7 @@ body .servicios .servicios__container .servicios--content .campanas--content {
   padding: 10rem;
   border-left: 20px solid #FF75BA;
   border-radius: 2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
 body .servicios .servicios__container .servicios--content .social--content {
   background: rgba(255, 85, 0, 0.6);
@@ -211,6 +214,7 @@ body .servicios .servicios__container .servicios--content .social--content {
   padding: 10rem;
   border-left: 20px solid #FF5400;
   border-radius: 2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
 body .clientes .clientes__container {
   display: grid;
@@ -219,6 +223,11 @@ body .clientes .clientes__container {
 body .clientes .clientes__container .clientes__container--frase {
   display: flex;
   align-items: center;
+  width: 45%;
+}
+body .clientes .clientes__container .clientes__container--frase h1 {
+  font-family: "Paytone One";
+  font-size: 7rem;
 }
 body .clientes .clientes__container .clientes__container--clientes {
   width: 100%;
