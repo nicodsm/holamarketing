@@ -231,6 +231,9 @@ body .clientes .clientes__container .clientes__container--clientes .swiper-slide
 body .clientes .clientes__container .clientes__container--clientes .swiper-button-next, body .clientes .clientes__container .clientes__container--clientes .swiper-button-prev {
   color: #FF5400;
 }
+body .clientes .clientes__container .clientes__container--clientes .cliente.destacado {
+  background-color: white;
+}
 body .clientes .clientes__container .clientes__container--clientes .cliente {
   height: 20rem;
 }
