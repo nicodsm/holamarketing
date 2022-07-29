@@ -226,6 +226,87 @@ body {
             }
         }
     }
+
+    .clientes {
+        .clientes__container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .clientes__container--frase {
+                display: flex;
+                align-items: center;
+            }
+            .clientes__container--clientes {
+                width: 100%;
+                .swiper-slide {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                }
+                .swiper-button-next, .swiper-button-prev {
+                    color: $color_4;
+                }
+
+                .cliente {
+                    height: 20rem;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    &:nth-child(1) {
+                        background-color: #E9CFEB;
+                        border-top-right-radius: 6rem;
+                    }
+                    &:nth-child(2) {
+                        background-color: #FF75BA;
+                        border-bottom-right-radius: 6rem;
+                    }
+                    &:nth-child(3) {
+                        background-color: $color_4;
+                        border-top-left-radius: 6rem;
+                    }
+                    &:nth-child(4) {
+                        border: 2px solid #F6B0E0;
+                        border-bottom-right-radius: 6rem;
+                        border-top-left-radius: 6rem;
+                    }
+                    &:nth-child(5) {
+                        background-color: $color_2;
+                        border-top-left-radius: 6rem;
+                    }
+                    &:nth-child(6) {
+                        background-color: $color_3;
+                        border-bottom-left-radius: 6rem;
+                    }
+                    &:nth-child(7) {
+                        background-color: $color_4;
+                        border-top-left-radius: 6rem;
+                    }
+                    &:nth-child(8) {
+                        background-color: $color_1;
+                        border-radius: 50%;
+                    }
+                    &:nth-child(9) {
+                        border: 2px solid $color_1;
+                        border-top-left-radius: 6rem;
+                    }
+                    &:nth-child(10) {
+                        border: 2px solid $color_1;
+
+                    }
+                    &:nth-child(11) {
+                        background-color: $color_3;
+
+                    }
+                    &:nth-child(12) {
+                        background-color: $color_2;
+                        border-top-right-radius: 6rem;
+                        border-bottom-left-radius: 6rem;
+                    }   
+                }
+            }
+        }
+    }
 }
 
 
