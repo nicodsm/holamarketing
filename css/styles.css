@@ -235,7 +235,7 @@ body .clientes .clientes__container .clientes__container--clientes {
 body .clientes .clientes__container .clientes__container--clientes .swiper-slide {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 body .clientes .clientes__container .clientes__container--clientes .swiper-button-next, body .clientes .clientes__container .clientes__container--clientes .swiper-button-prev {
   color: #FF5400;
