@@ -220,7 +220,7 @@ body .clientes .clientes__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   body .clientes .clientes__container {
     display: flex;
     flex-direction: column;

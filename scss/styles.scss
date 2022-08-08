@@ -239,7 +239,7 @@ body {
         .clientes__container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            @include mobile {
+            @include tablet {
                 display: flex;
                 flex-direction: column;
                 .clientes__container--frase {
