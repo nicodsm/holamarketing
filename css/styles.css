@@ -220,14 +220,40 @@ body .clientes .clientes__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+@media (max-width: 768px) {
+  body .clientes .clientes__container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .clientes .clientes__container .clientes__container--frase {
+    margin-bottom: 5rem;
+  }
+  body .clientes .clientes__container .clientes__container--frase h1 {
+    text-align: center;
+  }
+}
 body .clientes .clientes__container .clientes__container--frase {
   display: flex;
   align-items: center;
-  width: 45%;
 }
 body .clientes .clientes__container .clientes__container--frase h1 {
   font-family: "Paytone One";
   font-size: 7rem;
+}
+body .clientes .clientes__container .clientes__container--frase h1 .sub {
+  font-size: 3rem;
+  position: relative;
+  top: -2rem;
+  border-bottom: 5px solid #FF5400;
+}
+body .clientes .clientes__container .clientes__container--frase h1 .talento {
+  background: #FF75BA;
+  border-radius: 4rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: inline-block;
+  transform: rotate(-5deg);
+  transition: all 0.2s ease-in;
 }
 body .clientes .clientes__container .clientes__container--clientes {
   width: 100%;
