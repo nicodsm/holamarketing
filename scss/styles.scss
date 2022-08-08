@@ -252,6 +252,7 @@ body {
             .clientes__container--frase {
                 display: flex;
                 align-items: center;
+                padding: 2rem 10rem;
                 h1 {
                     font-family: 'Paytone One';
                     font-size: 7rem;
@@ -347,6 +348,36 @@ body {
                         border-top-right-radius: 6rem;
                         border-bottom-left-radius: 6rem;
                     }   
+                }
+            }
+        }
+    }
+}
+.contactanos {
+    .contactanos__container {
+        .contactanos__container--content {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            align-items: center;
+            .content--left {
+                .title {
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+
+            }
+            .content--right {
+                .swiper {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            display: flex;
+                            justify-content: center;
+                            img {
+                                max-width: 30rem;
+                            }
+
+                        }
+                    }
                 }
             }
         }

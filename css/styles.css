@@ -235,6 +235,7 @@ body .clientes .clientes__container {
 body .clientes .clientes__container .clientes__container--frase {
   display: flex;
   align-items: center;
+  padding: 2rem 10rem;
 }
 body .clientes .clientes__container .clientes__container--frase h1 {
   font-family: "Paytone One";
@@ -329,6 +330,23 @@ body .clientes .clientes__container .clientes__container--clientes .cliente:nth-
   background-color: #F6B0E0;
   border-top-right-radius: 6rem;
   border-bottom-left-radius: 6rem;
+}
+
+.contactanos .contactanos__container .contactanos__container--content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.contactanos .contactanos__container .contactanos__container--content .content--left .title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.contactanos .contactanos__container .contactanos__container--content .content--right .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.contactanos .contactanos__container .contactanos__container--content .content--right .swiper .swiper-wrapper .swiper-slide img {
+  max-width: 30rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
