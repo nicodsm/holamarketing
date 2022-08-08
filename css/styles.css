@@ -272,6 +272,11 @@ body .clientes .clientes__container .clientes__container--clientes .cliente.dest
 body .clientes .clientes__container .clientes__container--clientes .cliente {
   height: 20rem;
 }
+@media (max-width: 992px) {
+  body .clientes .clientes__container .clientes__container--clientes .cliente {
+    height: 15rem;
+  }
+}
 body .clientes .clientes__container .clientes__container--clientes .cliente img {
   height: 100%;
   width: 100%;

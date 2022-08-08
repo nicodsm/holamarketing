@@ -1,5 +1,7 @@
 var swiper = new Swiper(".clientes__container--clientes", {
-    autoplay: {
+  speed: 1000,
+  spaceBetween: 100,
+  autoplay: {
       delay: 2500,
       pauseOnMouseEnter: true,
     },
