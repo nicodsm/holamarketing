@@ -216,57 +216,19 @@ body .servicios .servicios__container .servicios--content .social--content {
   border-radius: 2rem;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
-body .clientes .clientes__container .clientes__container--frase {
-  display: flex;
-  align-items: center;
-  padding: 2rem 10rem;
-}
-body .clientes .clientes__container .clientes__container--frase h1 {
-  font-family: "Paytone One";
-  font-size: 7rem;
-}
-body .clientes .clientes__container .clientes__container--frase h1 .sub {
-  font-size: 3rem;
-  position: relative;
-  top: -3rem;
-  border-bottom: 5px solid #FF5400;
-}
-body .clientes .clientes__container .clientes__container--frase h1 .talento {
-  background: #FF75BA;
-  border-radius: 4rem;
-  padding: 1rem 2rem;
-  text-align: center;
-  display: inline-block;
-  transform: rotate(-5deg);
-  transition: all 0.2s ease-in;
-}
-body .clientes .clientes__container .clientes__container--clientes {
-  width: 100%;
-}
-body .clientes .clientes__container .clientes__container--clientes .swiper-wrapper {
+body .clientes .clientes__container .clientes__container--clientes .swiper-wrapper, body .clientes .clientes__container .clientes__container--clientes2 .swiper-wrapper {
   transition-timing-function: linear !important;
 }
-body .clientes .clientes__container .clientes__container--clientes .swiper-slide {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-body .clientes .clientes__container .clientes__container--clientes .swiper-button-next, body .clientes .clientes__container .clientes__container--clientes .swiper-button-prev {
-  color: #FF5400;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente.destacado {
-  background-color: white;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente {
-  height: 15rem;
-  width: 15rem !important;
+body .clientes .clientes__container .clientes__container--clientes .cliente, body .clientes .clientes__container .clientes__container--clientes2 .cliente {
   background: #F6B0E0;
+  width: 15rem !important;
+  height: 15rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body .clientes .clientes__container .clientes__container--clientes .cliente img {
+body .clientes .clientes__container .clientes__container--clientes .cliente img, body .clientes .clientes__container .clientes__container--clientes2 .cliente img {
   height: 100%;
   width: 100%;
   object-fit: cover;

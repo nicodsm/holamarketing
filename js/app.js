@@ -3,20 +3,26 @@ var swiper = new Swiper(".clientes__container--clientes", {
   slidesPerView: 'auto',
   slidesPerGroup: 1,
   spaceBetween: 50,
+  direction: 'horizontal',
+  allowTouchMove: false,
+  freeMode: true,  
+  freeModeMomentum: false,
+  freeModeMomentumBounce: false,
   autoplay: {
-      delay: 1,
+      delay: 0,
+      reverseDirection: true,
     },
     loop: true,
   });
 
-  var swiper3 = new Swiper(".swiper2", {
+  var swiper3 = new Swiper(".clientes__container--clientes2", {
     speed: 2500,
     slidesPerView: 'auto',
-    spaceBetween: 50,
     slidesPerGroup: 1,
+    spaceBetween: 50,
+    allowTouchMove: false,
     autoplay: {
         delay: 1,
-        reverseDirection: true,
       },
       loop: true,
     });
