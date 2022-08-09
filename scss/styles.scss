@@ -237,18 +237,7 @@ body {
 
     .clientes {
         .clientes__container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            @include tablet {
-                display: flex;
-                flex-direction: column;
-                .clientes__container--frase {
-                    margin-bottom: 5rem;
-                    h1 {
-                        text-align: center;
-                    }
-                }
-            }
+
             .clientes__container--frase {
                 display: flex;
                 align-items: center;
@@ -275,6 +264,10 @@ body {
                 }
             }
             .clientes__container--clientes {
+
+                .swiper-wrapper {
+                    transition-timing-function:linear!important; 
+                }
                 width: 100%;
                 .swiper-slide {
                     display: grid;
@@ -289,65 +282,18 @@ body {
                 }
 
                 .cliente {
-                    height: 20rem;
-                    @include tablet {
-                        height: 15rem;
-                    }
+                    height: 15rem;
+                    width: 15rem!important;
+                    background: $color_2;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     img {
                         height: 100%;
                         width: 100%;
                         object-fit: cover;
-                    }
-                    &:nth-child(1) {
-                        background-color: #E9CFEB;
-                        border-top-right-radius: 6rem;
-                    }
-                    &:nth-child(2) {
-                        background-color: #FF75BA;
-                        border-bottom-right-radius: 6rem;
-                    }
-                    &:nth-child(3) {
-                        background-color: $color_4;
-                        border-top-left-radius: 6rem;
-                    }
-                    &:nth-child(4) {
-                        border: 2px solid #F6B0E0;
-                        border-bottom-right-radius: 6rem;
-                        border-top-left-radius: 6rem;
-                    }
-                    &:nth-child(5) {
-                        background-color: $color_2;
-                        border-top-left-radius: 6rem;
-                    }
-                    &:nth-child(6) {
-                        background-color: $color_3;
-                        border-bottom-left-radius: 6rem;
-                    }
-                    &:nth-child(7) {
-                        background-color: $color_4;
-                        border-top-left-radius: 6rem;
-                    }
-                    &:nth-child(8) {
-                        background-color: $color_1;
-                        border-radius: 50%;
-                    }
-                    &:nth-child(9) {
-                        border: 2px solid $color_1;
-                        border-top-left-radius: 6rem;
-                    }
-                    &:nth-child(10) {
-                        border: 2px solid $color_1;
-
-                    }
-                    &:nth-child(11) {
-                        background-color: $color_3;
-
-                    }
-                    &:nth-child(12) {
-                        background-color: $color_2;
-                        border-top-right-radius: 6rem;
-                        border-bottom-left-radius: 6rem;
-                    }   
+                    }  
                 }
             }
         }

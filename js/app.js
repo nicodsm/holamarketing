@@ -1,16 +1,26 @@
 var swiper = new Swiper(".clientes__container--clientes", {
-  speed: 1000,
+  speed: 2500,
+  slidesPerView: 'auto',
+  slidesPerGroup: 1,
   spaceBetween: 50,
+  freeMode: true,
   autoplay: {
-      delay: 2000,
-      pauseOnMouseEnter: true,
+      delay: 1,
     },
     loop: true,
   });
 
-  document.querySelector('.clientes__container--clientes').addEventListener('mouseleave', ()=>{
-    swiper.autoplay.start();
-  })
+  var swiper3 = new Swiper(".swiper2", {
+    speed: 2500,
+    slidesPerView: 'auto',
+    spaceBetween: 50,
+    freeMode: true,
+    autoplay: {
+        delay: 0,
+        reverseDirection: true,
+      },
+      loop: true,
+    });
 
 
   var swiper2 = new Swiper(".swiper__texto", {

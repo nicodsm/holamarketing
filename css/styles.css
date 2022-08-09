@@ -216,22 +216,6 @@ body .servicios .servicios__container .servicios--content .social--content {
   border-radius: 2rem;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 }
-body .clientes .clientes__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-@media (max-width: 992px) {
-  body .clientes .clientes__container {
-    display: flex;
-    flex-direction: column;
-  }
-  body .clientes .clientes__container .clientes__container--frase {
-    margin-bottom: 5rem;
-  }
-  body .clientes .clientes__container .clientes__container--frase h1 {
-    text-align: center;
-  }
-}
 body .clientes .clientes__container .clientes__container--frase {
   display: flex;
   align-items: center;
@@ -259,6 +243,9 @@ body .clientes .clientes__container .clientes__container--frase h1 .talento {
 body .clientes .clientes__container .clientes__container--clientes {
   width: 100%;
 }
+body .clientes .clientes__container .clientes__container--clientes .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 body .clientes .clientes__container .clientes__container--clientes .swiper-slide {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -271,65 +258,18 @@ body .clientes .clientes__container .clientes__container--clientes .cliente.dest
   background-color: white;
 }
 body .clientes .clientes__container .clientes__container--clientes .cliente {
-  height: 20rem;
-}
-@media (max-width: 992px) {
-  body .clientes .clientes__container .clientes__container--clientes .cliente {
-    height: 15rem;
-  }
+  height: 15rem;
+  width: 15rem !important;
+  background: #F6B0E0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 body .clientes .clientes__container .clientes__container--clientes .cliente img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(1) {
-  background-color: #E9CFEB;
-  border-top-right-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(2) {
-  background-color: #FF75BA;
-  border-bottom-right-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(3) {
-  background-color: #FF5400;
-  border-top-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(4) {
-  border: 2px solid #F6B0E0;
-  border-bottom-right-radius: 6rem;
-  border-top-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(5) {
-  background-color: #F6B0E0;
-  border-top-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(6) {
-  background-color: #FF75BA;
-  border-bottom-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(7) {
-  background-color: #FF5400;
-  border-top-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(8) {
-  background-color: #E9CFEB;
-  border-radius: 50%;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(9) {
-  border: 2px solid #E9CFEB;
-  border-top-left-radius: 6rem;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(10) {
-  border: 2px solid #E9CFEB;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(11) {
-  background-color: #FF75BA;
-}
-body .clientes .clientes__container .clientes__container--clientes .cliente:nth-child(12) {
-  background-color: #F6B0E0;
-  border-top-right-radius: 6rem;
-  border-bottom-left-radius: 6rem;
 }
 
 .contactanos .contactanos__container .contactanos__container--content {
