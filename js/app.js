@@ -3,9 +3,7 @@ var swiper = new Swiper(".clientes__container--clientes", {
   slidesPerView: 'auto',
   slidesPerGroup: 1,
   spaceBetween: 50,
-  direction: 'horizontal',
-  allowTouchMove: false,
-  freeMode: true,  
+  allowTouchMove: false, 
   freeModeMomentum: false,
   freeModeMomentumBounce: false,
   autoplay: {
