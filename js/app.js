@@ -3,7 +3,6 @@ var swiper = new Swiper(".clientes__container--clientes", {
   slidesPerView: 'auto',
   slidesPerGroup: 1,
   spaceBetween: 50,
-  freeMode: true,
   autoplay: {
       delay: 1,
     },
@@ -14,9 +13,9 @@ var swiper = new Swiper(".clientes__container--clientes", {
     speed: 2500,
     slidesPerView: 'auto',
     spaceBetween: 50,
-    freeMode: true,
+    slidesPerGroup: 1,
     autoplay: {
-        delay: 0,
+        delay: 1,
         reverseDirection: true,
       },
       loop: true,
